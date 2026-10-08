@@ -1,0 +1,14 @@
+{
+  "name": "calendar-workbench",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A dependency-free Gregorian calendar engine, printable calendar app, and JSON API.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check": "node --check src/calendar.js && node --check src/server.js && node --check src/pdf.js"
+  }
+}
